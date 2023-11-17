@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Change language to French -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body class="bg-light">
+    <div>
+        <img src="img/back.webp" alt="" srcset="" width="100%" height="350vh">
+    </div>
+
+    <div class="container mt-5 mb-5">
+       
+        <div class="row">
+            <div class="col-md-6">
+                <div class="">
+                    <h4 class="display-6 text-center align-items-center">Application vérifier le pullrequest</h4>
+                    <div class="text-center align-items-center mt-3">
+                        <img src="img/folder.png" class="img-fluid" alt="Folder Image">
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-primary" onclick="check()">Vérifier les dossiers</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+
+               
+               
+                <div id="result-container" class="fixed-container mt-5">
+                    <div class="jumbotron">
+                        <h4 class="display-6">Résultat de la vérification des dossiers</h4>
+                        <div id="result-message" class="alert alert-info mt-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
